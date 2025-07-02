@@ -3,6 +3,8 @@ spring:
     name: mcp-practice
 
   ai:
+    anthropic:
+      api-key: {secret.spring.ai.anthropic.api-key}
     mcp:
       server:
         name: kwc-mcp
