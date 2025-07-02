@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: mcp-practice
+
+  ai:
+    anthropic:
+      api-key:
+    mcp:
+      server:
+        name: kwc-mcp
+        version: 0.0.1
+
+  main:
+    web-application-type: none
+    banner-mode: off
+
+logging:
+  pattern:
+    console:
